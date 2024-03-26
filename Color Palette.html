@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vertical Color Columns</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    .roboto-regular {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+  }
+  .color-columns {
+    display: flex;
+    height: 100%;
+  }
+  .color-column {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    writing-mode: vertical-rl;
+  }
+  .brownish { background-color: #C7522A; color: white;}
+  .mustard { background-color: #E5C185; color: white;}
+  .beige { background-color: #F0DAA5; color: black;}
+  .butter {background-color: #FBF2C4; color: black;}
+  .mint { background-color: #B8CDAB; color: black;}
+  .pale-green { background-color: #74A892; color: white;}
+  .ocean { background-color: #008585; color: white;}
+  .dark-green { background-color: #004343; color: white;}
+  .black { background-color: black; color: white;}
+
+</style>
+</head>
+<body>
+<div class="color-columns">
+  <div class="color-column brownish">
+        <div class="vertical" style="display: flex; flex-direction: column; transform: rotate(270deg); align-items: center;">
+            <span>B</span>
+            <span>r</span>
+            <span>o</span>
+            <span>w</span>
+            <span>n</span>
+            <span>i</span>
+            <span>s</span>
+            <span>h</span>
+        </div>
+    </div>
+  <div class="color-column mustard">
+    <div class="vertical" style="display: flex; flex-direction: column; transform: rotate(270deg); align-items: center;">
+        <span>M</span>
+        <span>u</span>
+        <span>s</span>
+        <span>t</span>
+        <span>a</span>
+        <span>r</span>
+        <span>d</span>
+    </div>
+  </div>
+  <div class="color-column beige">
+    <div class="vertical" style="display: flex; flex-direction: column; transform: rotate(270deg); align-items: center;">
+        <span>B</span>
+        <span>e</span>
+        <span>i</span>
+        <span>g</span>
+        <span>e</span>
+    </div>
+  </div>
+  <div class="color-column butter">
+    <div class="vertical" style="display: flex; flex-direction: column; transform: rotate(270deg); align-items: center;">
+        <span>B</span>
+        <span>u</span>
+        <span>t</span>
+        <span>t</span>
+        <span>e</span>
+        <span>r</span>
+    </div>
+  </div>
+  <div class="color-column mint">
+    <div class="vertical" style="display: flex; flex-direction: column; transform: rotate(270deg); align-items: center;">
+        <span>M</span>
+        <span>i</span>
+        <span>n</span>
+        <span>t</span>
+    </div>
+  </div>
+  <div class="color-column pale-green">
+    <div class="vertical" style="display: flex; flex-direction: column; transform: rotate(270deg); align-items: center;">
+        <span>P</span>
+        <span>a</span>
+        <span>l</span>
+        <span>e</span>
+        <span>-</span>
+        <span>g</span>
+        <span>r</span>
+        <span>e</span>
+        <span>e</span>
+        <span>n</span>
+    </div>
+  </div>
+  <div class="color-column ocean">
+    <div class="vertical" style="display: flex; flex-direction: column; transform: rotate(270deg); align-items: center;">
+        <span>O</span>
+        <span>c</span>
+        <span>e</span>
+        <span>a</span>
+        <span>n</span>
+    </div>
+  </div>
+  <div class="color-column dark-green">
+    <div class="vertical" style="display: flex; flex-direction: column; transform: rotate(270deg); align-items: center;">
+        <span>D</span>
+        <span>a</span>
+        <span>r</span>
+        <span>k</span>
+        <span>-</span>
+        <span>g</span>
+        <span>r</span>
+        <span>e</span>
+        <span>e</span>
+        <span>n</span>
+    </div>
+  </div>
+  <div class="color-column black">
+    <div class="vertical" style="display: flex; flex-direction: column; transform: rotate(270deg); align-items: center;">
+        <span>B</span>
+        <span>l</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
